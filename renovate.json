@@ -10,9 +10,6 @@
   "extends": [
     "config:base"
   ],
-  "includePaths": [
-    "ui"
-  ],
   "major": {
     "automerge": false
   },
