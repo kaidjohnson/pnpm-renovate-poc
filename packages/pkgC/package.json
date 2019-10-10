@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "pkg-b": "0.0.0-mono",
-    "redux": "4.0.1"
+    "redux": "4.0.4"
   }
 }
