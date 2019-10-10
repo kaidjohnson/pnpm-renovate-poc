@@ -10,12 +10,6 @@
   "extends": [
     "config:base"
   ],
-  "major": {
-    "automerge": false
-  },
-  "minor": {
-    "automerge": false
-  },
   "packageRules": [
     {
       "groupName": "babel",
