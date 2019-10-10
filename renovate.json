@@ -1,0 +1,56 @@
+{
+  "assignees": [
+    "kaidjohnson"
+  ],
+  "automerge": false,
+  "branchPrefix": "renovate/",
+  "enabledManagers": [
+    "npm"
+  ],
+  "extends": [
+    "config:base"
+  ],
+  "packageRules": [
+    {
+      "groupName": "babel",
+      "packageNames": [
+        "babel-core"
+      ],
+      "packagePatterns": [
+        "^@babel",
+        "^babel-plugin"
+      ]
+    },
+    {
+      "groupName": "eslint",
+      "packagePatterns": [
+        "eslint"
+      ]
+    },
+    {
+      "groupName": "jest",
+      "packagePatterns": [
+        "jest"
+      ]
+    },
+    {
+      "groupName": "storybook",
+      "packagePatterns": [
+        "storybook"
+      ]
+    },
+    {
+      "groupName": "vue",
+      "packagePatterns": [
+        "vue"
+      ]
+    },
+    {
+      "groupName": "webpack",
+      "packagePatterns": [
+        "webpack",
+        "-loader$"
+      ]
+    }
+  ]
+}
