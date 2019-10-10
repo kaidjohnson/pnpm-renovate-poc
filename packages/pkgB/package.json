@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "5.4.0",
+    "eslint": "5.16.0",
     "pkg-a": "0.0.0-mono"
   }
 }
