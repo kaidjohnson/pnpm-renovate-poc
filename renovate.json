@@ -10,6 +10,11 @@
   "extends": [
     "config:base"
   ],
+  "ignoreDeps": [
+    "pkg-a",
+    "pkg-b",
+    "pkg-c"
+  ],
   "packageRules": [
     {
       "groupName": "babel",
