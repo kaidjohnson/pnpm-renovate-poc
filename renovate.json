@@ -56,5 +56,6 @@
         "-loader$"
       ]
     }
-  ]
+  ],
+  "schedule": null
 }
